@@ -4,9 +4,30 @@ body {
     margin:0;
     display: flex;
     flex-direction: column;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
 }
+/* Colors for each card */
+.purple {
+    background-color: hsl(263, 55%, 52%);
+}
+.gray {
+    background-color: hsl(217, 19%, 35%);
+}
+.white {
+    background-color: hsl(0, 0%, 100%);
+}
+.blue {
+    background-color:hsl(219, 29%, 14%)
+}
+/* Card design */
+.card {
+    padding:8vw;
+    border-radius: 10px;
+}
+
 #container {
-    margin-top: 15dvh;
-    width: 80%;
+    margin-top: 10dvh;
+    width: 85%;
     align-self: center;
 }
