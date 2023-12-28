@@ -25,7 +25,29 @@ body {
     padding:8vw;
     border-radius: 10px;
 }
-
+/* profile pictures */
+.profilePicture {
+    width:10vw;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#daniel {
+    background-image: url('/images/image-daniel.jpg');
+}
+#jonathan {
+    background-image: url('/images/image-jonathan.jpg');
+}
+#jeanette {
+    background-image: url('/images/image-jeanette.jpg');
+}
+#patrick {
+    background-image: url('/images/image-patrick.jpg');
+}
+#kira {
+    background-image: url('/images/image-kira.jpg');
+}
 #container {
     margin-top: 10dvh;
     width: 85%;
