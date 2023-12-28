@@ -22,12 +22,13 @@ body {
 }
 /* Card design */
 .card {
-    padding:8vw;
+    padding:7.40vw;
     border-radius: 10px;
 }
 /* profile pictures */
 .profilePicture {
-    width:10vw;
+    width:9vw;
+    height: 9vw;
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-repeat: no-repeat;
@@ -48,8 +49,54 @@ body {
 #kira {
     background-image: url('/images/image-kira.jpg');
 }
+/* Profile section area */
+.profileSection {
+    display:flex;
+    gap:10px;
+    font-weight: 500;
+    color:hsl(0, 0%, 100%);
+    
+}
+.userName > span {
+    font-size: 0.9rem;
+    
+}
+.userStatus {
+    font-size: 0.75rem;
+    opacity: 50%;
+}
+.heading > h2 {
+    font-size: 1.26rem;
+}
+.whiteUsername > span {
+    color:hsl(217, 19%, 35%);
+    font-weight: 600;
+}
+.whiteUserStatus {
+    color:hsl(217, 19%, 35%);
+}
+/* Headings */
+.whiteHeading {
+    color:hsl(0, 0%, 100%)
+}
+.grayHeading {
+    color:hsl(217, 19%, 35%);
+}
+/* Paragraph styles */
+p {
+    color:hsl(0, 0%, 81%);
+    opacity: 70%;
+}
+.whiteParagraph {
+    color:hsl(217, 19%, 35%);
+}
+/* Container */
 #container {
     margin-top: 10dvh;
+    margin-bottom: 10dvh;
     width: 85%;
     align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
