@@ -1,0 +1,102 @@
+/* Mobile */
+body {
+    background-color: hsl(210, 46%, 95%);
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+/* Colors for each card */
+.purple {
+    background-color: hsl(263, 55%, 52%);
+}
+.gray {
+    background-color: hsl(217, 19%, 35%);
+}
+.white {
+    background-color: hsl(0, 0%, 100%);
+}
+.blue {
+    background-color:hsl(219, 29%, 14%)
+}
+/* Card design */
+.card {
+    padding:7.40vw;
+    border-radius: 10px;
+}
+/* profile pictures */
+.profilePicture {
+    width:9vw;
+    height: 9vw;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#daniel {
+    background-image: url('/images/image-daniel.jpg');
+}
+#jonathan {
+    background-image: url('/images/image-jonathan.jpg');
+}
+#jeanette {
+    background-image: url('/images/image-jeanette.jpg');
+}
+#patrick {
+    background-image: url('/images/image-patrick.jpg');
+}
+#kira {
+    background-image: url('/images/image-kira.jpg');
+}
+/* Profile section area */
+.profileSection {
+    display:flex;
+    gap:10px;
+    font-weight: 500;
+    color:hsl(0, 0%, 100%);
+    
+}
+.userName > span {
+    font-size: 0.9rem;
+    
+}
+.userStatus {
+    font-size: 0.75rem;
+    opacity: 50%;
+}
+.heading > h2 {
+    font-size: 1.26rem;
+}
+.whiteUsername > span {
+    color:hsl(217, 19%, 35%);
+    font-weight: 600;
+}
+.whiteUserStatus {
+    color:hsl(217, 19%, 35%);
+}
+/* Headings */
+.whiteHeading {
+    color:hsl(0, 0%, 100%)
+}
+.grayHeading {
+    color:hsl(217, 19%, 35%);
+}
+/* Paragraph styles */
+p {
+    color:hsl(0, 0%, 81%);
+    opacity: 70%;
+}
+.whiteParagraph {
+    color:hsl(217, 19%, 35%);
+}
+/* Container */
+#container {
+    margin-top: 10dvh;
+    margin-bottom: 10dvh;
+    width: 85%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
