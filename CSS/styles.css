@@ -1,0 +1,12 @@
+/* Mobile */
+body {
+    background-color: hsl(210, 46%, 95%);
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+#container {
+    margin-top: 15dvh;
+    width: 80%;
+    align-self: center;
+}
