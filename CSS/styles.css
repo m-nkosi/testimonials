@@ -100,3 +100,40 @@ p {
     flex-direction: column;
     gap:20px;
 }
+@media (min-width:768px)
+{
+    body {
+        height: 100dvh;
+    }
+    #container {
+        width:75%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-top:unset;
+        margin-bottom: unset;
+    }
+    /* Profiles */
+    .profilePicture {
+        width: 50px;
+        height: 50px;
+    }
+    /* Cards */
+    .card {
+        padding:50px;
+    }
+    /* grid layout */
+    .purple {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .card:last-child {
+        grid-row-start:1 ;
+        grid-row-end:3;
+        grid-column-start:4 ;
+    }
+    .blue {
+        grid-column-start:2;
+        grid-column-end:4;
+    }
+}
