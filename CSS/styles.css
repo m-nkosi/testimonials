@@ -38,6 +38,7 @@ body {
 }
 #daniel {
     background-image: url('/images/image-daniel.jpg');
+    border: 2px solid rgba(255,255,255, 0.65);
 }
 #jonathan {
     background-image: url('/images/image-jonathan.jpg');
@@ -47,6 +48,7 @@ body {
 }
 #patrick {
     background-image: url('/images/image-patrick.jpg');
+    border:2px solid hsl(263, 55%, 52%);
 }
 #kira {
     background-image: url('/images/image-kira.jpg');
@@ -110,22 +112,38 @@ p {
         justify-content: center;
     }
     #container {
-        height: 70dvh;
         width:75%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         margin-top:unset;
         margin-bottom: unset;
+        gap:1.5vw;
+        
     }
+
     /* Profiles */
     .profilePicture {
         width: 50px;
         height: 50px;
+        border-radius: 20px solid black;
+    }
+    .profileDetails {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profileSection{
+        letter-spacing: 0.5px;
+        gap:0.9vw;
     }
     /* Cards */
     .card {
-        padding:50px;
+        padding:clamp(15px,1.4vw, 50px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 5px 60px 60px 1px rgba(25, 33 , 46, 0.2);
     }
     /* grid layout */
     .purple {
@@ -140,5 +158,19 @@ p {
     .blue {
         grid-column-start:2;
         grid-column-end:4;
+    }
+    /* Text */
+    .heading > h2 {
+        font-size: 1.4vw;
+    }
+    p {
+        font-size: 0.95vw;
+        margin:0;
+    }
+    .userName > span {
+        font-size: clamp(15px, 0.8vw,1.2rem);
+    }
+    .userStatus > span {
+        font-size: 1.05rem;
     }
 }
